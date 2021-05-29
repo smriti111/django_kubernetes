@@ -5,11 +5,13 @@
 pip install -m requirements.txt
 ```
 <p> To start the django app locally </p>
+
 ```python
 python manage.py runserver
 ```
 <p>Go to url</p>
- [http://localhost:8000]:( http://localhost:8000)
+
+ [url]:( http://localhost:8000)
   
 Django-app deployment in kubernetes
 ## To start the docker-container use command>

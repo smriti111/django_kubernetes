@@ -37,7 +37,7 @@ kubectl get pod
 ```
 ## To check the service
 ```kubernetes
-kuberctl get service
+kubectl get service
 ```
 ## Running the app using an external ip address
 ```kubernetes

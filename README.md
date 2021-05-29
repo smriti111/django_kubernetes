@@ -9,7 +9,7 @@ pip install -m requirements.txt
 python manage.py runserver
 ```
 <p>Go to url</p>
- [http://localhost:8000]( http://localhost:8000)
+ [http://localhost:8000]:( http://localhost:8000)
   
 Django-app deployment in kubernetes
 ## To start the docker-container use command>
@@ -17,7 +17,7 @@ Django-app deployment in kubernetes
 docker-compose up
 ```
 <p>The app starts at port number 8020</p>
-[http://localhost:8020/]( http://localhost:8020)
+[http://localhost:8020/]:( http://localhost:8020)
 
 ## Use Kubernetes to deploy and run app
 ```kubernetes

@@ -1,19 +1,39 @@
 # django_kubernetes
+## To run the web app locally
+<p>First install the dependencies</p>
+```python
+pip install -m requirements.txt
+```
+<p> To start the django app locally </p>
+```python
+python manage.py runserver
+```
+<p>Go to url</p>
+ http://localhost:8000
+  
 Django-app deployment in kubernetes
-<p>To start the docker-container use command:</p>
+## To start the docker-container use command>
+```docker
 docker-compose up
-The app starts at port number 8020
+```
+<p>The app starts at port number 8020</p>
 url:  http://localhost:8020/
 
-#Use Kubernetes to deploy and run app
+## Use Kubernetes to deploy and run app
+```kubernetes
 kubectl create -f ./kubernetes/deployments/deployment.yml
 kubectl create -f ./kubernetes/service/services.yml
+```
 
-To check the status of pods:
+## To check the status of pods:
+```kubernetes
 kubectl get pod
-
-To check the service
+```
+## To check the service
+```kubernetes
 kuberctl get service
-
-Running the app using an external ip address
-minikube get service <name_of_the_service>
+```
+## Running the app using an external ip address
+```kubernetes
+minikube get service django-rest-service
+```

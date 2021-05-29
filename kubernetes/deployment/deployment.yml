@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-rest-deploy
+  labels:
+    app: django-rest
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: django-rest
+  template:
+    metadata:
+      labels:
+        app: django-rest
+    spec:
+      containers:
+      - name: django-rest
+        image: smriti111/django_rest_app
+        ports:
+        - containerPort: 8020

@@ -1,4 +1,5 @@
 # django_kubernetes
+Django application deployed with [Kubernetes](https://kubernetes.io)
 ## To run the web app locally
 <p>First install the dependencies</p>
 

@@ -1,13 +1,13 @@
 # django_kubernetes
 ## To run the web app locally
 <p>First install the dependencies</p>
-```python
+```pip
 pip install -m requirements.txt
 ```
 <p> To start the django app locally </p>
 
 ```python
-python manage.py runserver
+manage.py runserver
 ```
 <p>Go to url</p>
 
@@ -19,7 +19,7 @@ Django-app deployment in kubernetes
 docker-compose up
 ```
 <p>The app starts at port number 8020</p>
-http://localhost:8020/
+http://localhost:8020
 
 ## Use Kubernetes to deploy and run app
 ```kubernetes

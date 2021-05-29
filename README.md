@@ -1,11 +1,11 @@
 # django_kubernetes
 Django-app deployment in kubernetes
-##To start the docker-container use command:
+#To start the docker-container use command:
 docker-compose up
 The app starts at port number 8020
 url:  http://localhost:8020/
 
-##Use Kubernetes to deploy and run app
+#Use Kubernetes to deploy and run app
 kubectl create -f ./kubernetes/deployments/deployment.yml
 kubectl create -f ./kubernetes/service/services.yml
 

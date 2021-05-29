@@ -28,7 +28,7 @@ http://localhost:8020
 ## Use Kubernetes to deploy and run app
 ```kubernetes
 kubectl create -f ./kubernetes/deployments/deployment.yml
-kubectl create -f ./kubernetes/service/services.yml
+kubectl create -f ./kubernetes/services/service.yml
 ```
 
 ## To check the status of pods:

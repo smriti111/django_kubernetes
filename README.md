@@ -1,9 +1,11 @@
 # django_kubernetes
 ## To run the web app locally
 <p>First install the dependencies</p>
-```python
+
+```
     pip install -r requirements.txt
 ```
+
 <p> To start the django app locally </p>
 
 ```python
